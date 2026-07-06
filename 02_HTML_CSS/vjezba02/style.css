@@ -1,0 +1,33 @@
+:root{
+    --pozadina: #ecf0f1;
+    --primarna-boja: #2c3e50;
+    --pozadina-container: #f5f2f2;
+}
+
+body{
+    background-color: var(--pozadina);
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: var(--primarna-boja);
+    padding: 1rem;
+    background-color: var(--pozadina-container);
+}
+
+
+h1{
+    text-align: center;
+    font-family: monospace;
+}
+
+
+#lista{
+    border: 2px dashed black;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin: 2rem;
+}
